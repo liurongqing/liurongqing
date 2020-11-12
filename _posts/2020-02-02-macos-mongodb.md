@@ -19,6 +19,19 @@ brew install mongodb-community@4.4
 
 ## 运行 MongoDB
 
+1. 通过 brew 命令来启动服务
+
+    ```bash
+    # 启动
+    brew services start mongodb-community@4.4
+
+    # 关闭
+    brew services stop mongodb-community@4.4
+
+    # 重启
+    brew services restart mongodb-community@4.4
+    ```
+
 1. 通过 mongod 命令来启动服务
 
     ```bash
@@ -30,18 +43,6 @@ brew install mongodb-community@4.4
 
     # 后台启动的可以通过 mongo shell 控制台关闭
     db.adminCommand({"shutdown": 1})
-    ```
-2. 通过 brew 命令来启动服务
-
-    ```bash
-    # 启动
-    brew services start mongodb-community@4.4
-
-    # 关闭
-    brew services stop mongodb-community@4.4
-
-    # 重启
-    brew services restart mongodb-community@4.4
     ```
 
 ## 验证 MongoDB 是否正在运行
@@ -85,4 +86,4 @@ db.inventory.deleteOne( { item: "canvas" } )
 
 ## 参考
 
-[docs.mongodb.com](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
