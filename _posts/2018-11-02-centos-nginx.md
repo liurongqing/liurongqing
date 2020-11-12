@@ -61,6 +61,19 @@ systemctl status nginx
 nginx -v
 ```
 
+## 简单配置文件
+
+`vim /etc/nginx/conf.d/www.xx.com.conf`
+
+```bash
+server { 
+    listen       80;
+    server_name  xx.com www.xx.com;
+    root /Users/username/www;
+    index index.html index.htm index.php;
+}
+```
+
 
 ## 配置文件
 
