@@ -1,5 +1,5 @@
 ---
-title: About
+title: 关于我
 
 # The About page
 # v2.0
@@ -8,4 +8,25 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+- 资深前端开发工程师
+- 休闲游戏开发爱好者
+- 爱钓鱼、爱打羽毛球、爱旅游、爱王者荣耀
+
+# 友情链接
+---
+
+##### 个人开发者
+
+---
+
+- [phasergames.com](https://phasergames.com/)
+
+---
+
+#### 游戏社区
+
+---
+
+- [ourcade](http://ourcade.co/)
+
+---
