@@ -21,6 +21,8 @@ title: 关于我
 
 - [phasergames.com](https://phasergames.com/)
 - [William Clarkson](https://williamclarkson.net/)
+- [Emanuele Feronato](https://www.emanueleferonato.com/)
+- [JS13KGAMES](https://js13kgames.com/)
 
 ---
 
