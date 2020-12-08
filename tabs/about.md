@@ -22,7 +22,7 @@ title: 关于我
 - [phasergames.com](https://phasergames.com/)
 - [William Clarkson](https://williamclarkson.net/)
 - [Emanuele Feronato](https://www.emanueleferonato.com/)
-- [JS13KGAMES](https://js13kgames.com/)
+
 
 ---
 
@@ -31,5 +31,6 @@ title: 关于我
 ---
 
 - [ourcade](http://ourcade.co/)
+- [JS13KGAMES](https://js13kgames.com/)
 
 ---
