@@ -47,14 +47,8 @@ jobs:
           bundle config path ${{ env.GEMS_PATH }}
 
       - name: Bundle Install
-        if: steps.bundle-cache.outputs.cache-hit != 'true'
         run: |
-          bundle install
-
-      - name: Bundle Install locally
-        if: steps.bundle-cache.outputs.cache-hit == 'true'
-        run: |
-          bundle install --local
+            bundle install
 
       - name: Check baseurl
         run: |

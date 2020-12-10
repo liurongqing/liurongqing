@@ -399,8 +399,8 @@ this.myGroup= this.physics.add.group({
 
 ```js
 game.renderer.snapshot(function (image) {
-    image.style.width = '160px';
-    image.style.height = '120px';
+    image.style.width = '320px';
+    image.style.height = '480px';
     // image.style.paddingLeft = '2px';
     document.body.appendChild(image);
 });
