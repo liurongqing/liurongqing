@@ -393,6 +393,19 @@ this.myGroup= this.physics.add.group({
 });
 ```
 
+## snapshot
+
+### Snapshot Game
+
+```js
+game.renderer.snapshot(function (image) {
+    image.style.width = '160px';
+    image.style.height = '120px';
+    // image.style.paddingLeft = '2px';
+    document.body.appendChild(image);
+});
+```
+
 ## 参考
 
 1. [phasergames.com](https://phasergames.com/)
