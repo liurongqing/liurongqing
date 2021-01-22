@@ -25,3 +25,6 @@
   Powered by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>
 </p>
 
+### About me
+
+[关于我](https://www.liurongqing.com/tabs/about/)
