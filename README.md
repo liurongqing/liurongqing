@@ -13,11 +13,16 @@
 [![px2vw](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=px2vw)](https://github.com/liurongqing/px2vw)
 
 ### Open source games
-[![phaser3-template](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-template)](https://github.com/liurongqing/phaser3-template)
+
 [![phaser3-tutorial](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-tutorial)](https://github.com/liurongqing/phaser3-tutorial)
 
 ### Languages
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liurongqing)](https://github.com/liurongqing)
+
+
+### About me
+
+[关于我](https://www.liurongqing.com/tabs/about/)
 
 ---
 
@@ -25,6 +30,3 @@
   Powered by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>
 </p>
 
-### About me
-
-[关于我](https://www.liurongqing.com/tabs/about/)
