@@ -13,7 +13,7 @@
 [![px2vw](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=px2vw)](https://github.com/liurongqing/px2vw)
 
 ### Open source games
-
+[![phaser3-template](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-template)](https://github.com/liurongqing/phaser3-template)
 [![phaser3-tutorial](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-tutorial)](https://github.com/liurongqing/phaser3-tutorial)
 
 ### Languages
