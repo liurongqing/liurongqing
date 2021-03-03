@@ -57,6 +57,9 @@ title: 关于我
 - [TexturePacker](https://www.codeandweb.com/)
     > 精灵图处理工具
 - [Carbon](https://carbon.now.sh/)
-    > 在线代码截图工具
+    > 在线代码截图工具    
+- [LiceCap](https://www.cockos.com/licecap/)
+    > gif 生成工具
+
 
 ---
