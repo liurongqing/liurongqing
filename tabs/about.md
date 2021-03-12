@@ -15,7 +15,7 @@ title: 关于我
 # 友情链接
 ---
 
-##### 个人开发者
+#### 个人开发者
 
 ---
 
@@ -24,6 +24,13 @@ title: 关于我
 - [Emanuele Feronato](https://www.emanueleferonato.com/)
 - [现代JavaScript教程](https://zh.javascript.info/)
 
+
+---
+
+#### 学习网站
+
+- [codewars](https://www.codewars.com/)
+    > 代码学习网站，最佳实践
 
 ---
 
