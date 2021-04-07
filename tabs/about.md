@@ -31,6 +31,8 @@ title: 关于我
 
 - [codewars](https://www.codewars.com/)
     > 代码学习网站，最佳实践
+- [设计模式与重构](https://refactoringguru.cn/)
+    > 设计模式与重构
 
 ---
 
