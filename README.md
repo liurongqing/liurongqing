@@ -8,6 +8,7 @@
 ![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=tokyonight&count_private=true)
 
 ### Open source plugin
+[![seven-seconds](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=seven-seconds)](https://github.com/liurongqing/seven-seconds)
 [![phaser3-align-plugin](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-align-plugin)](https://github.com/liurongqing/phaser3-align-plugin)
 [![jekyll-theme-fast](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=jekyll-theme-fast)](https://github.com/liurongqing/jekyll-theme-fast)
 [![px2vw](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=px2vw)](https://github.com/liurongqing/px2vw)
