@@ -9,17 +9,17 @@ tags: [nvm, 'node']
 
 1. 项目中创建 `.nvmrc`，并写入版本号
 
-```bash
-echo '14.15' > .nvmrc
-```
+    ```bash
+    echo '14.15' > .nvmrc
+    ```
 
 2. 切换版本
 
-> 这样就会进入到 node 14.15 版本
+    > 这样就会进入到 node 14.15 版本
 
-```bash
-nvm use
-```
+    ```bash
+    nvm use
+    ```
 ## 自动切换
 
 > 可以使用avn、nvs、zshrc 命令，这边使用的是 zshrc
