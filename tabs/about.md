@@ -33,6 +33,12 @@ title: 关于我
     > 代码学习网站，最佳实践
 - [设计模式与重构](https://refactoringguru.cn/)
     > 设计模式与重构
+- [htmldom](https://htmldom.dev/)
+    > 使用 javascript 操作 dom 常用方法
+- [1loc](https://1loc.dev/)
+    > 一行代码优雅解决
+- [csslayout](https://csslayout.io/)
+    > css 布局与图案
 
 ---
 
