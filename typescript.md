@@ -4,7 +4,7 @@
 ```json
 {
   "compilerOptions": {
-    "noEmitOnError": true, // 源文件代码出错，则不生成文件
+    "noEmitOnError": true, /* 源文件代码出错，则不生成文件 */
     "declaration": true, // 自动生成对应的 *.d.ts 文件
   }
 }
