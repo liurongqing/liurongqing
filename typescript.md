@@ -14,19 +14,13 @@
 
 以下所有例子以这个源为例
 
-```js
+```typescript
 interface UserProps {
   name: string
   nickname: string
   age: number
 }
 ```
-
-Partial
-
-Required
-
-Readonly
 
 1. Pick
 
@@ -45,7 +39,7 @@ Readonly
     > Omit<type, keys>  
     > 排除 keys 以外的值
 
-    ```js
+    ```typescript
     type NewUserProps = Omit<UserProps, 'name'> 
     // 等同于 
     { 
@@ -53,8 +47,37 @@ Readonly
       age: number 
     }
     ```
+1. Readonly
 
-Record
+    > Readonly<type>
+    > 只读
+
+    ```typescript
+    const user: Readonly<UserProps> = {
+      name: 'name',
+      nickname: 'nickname',
+      age: 10,
+    }
+    // 无法分配到 "name" ，因为它是只读属性。
+    user.name = 'name2'
+    ```
+1. ReadonlyArray
+
+    > ReadonlyArray<type>
+    > 只读
+
+    ```typescript
+    const foo: number[] = [1, 2, 3, 4]
+    const bar = ReadonlyArray<number> = foo
+
+    bar[0] = 10 // error!
+    bar.push(10) // error!
+    bar.length = 3 // error!
+    ```
+
+1. Required
+1. Record
+1. Partial
 
 ## 条件类型
 
