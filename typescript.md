@@ -33,7 +33,7 @@ Readonly
     > Pick<type, keys>  
     > 取 keys 值
 
-    ```js
+    ```typescript
     type NewUserProps = Pick<UserProps, 'name'> 
     // 等同于 
     { 
