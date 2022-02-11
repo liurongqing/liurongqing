@@ -29,8 +29,10 @@ Required
 Readonly
 
 1. Pick
-  > Pick<type, keys>
-  > 取 keys 值
+
+    > Pick<type, keys>
+    > 取 keys 值
+
     ```js
     type NewUserProps = Pick<UserProps, 'name'> 
     // 等同于 
@@ -39,10 +41,11 @@ Readonly
     }
     ```
 1. Omit 
-  > Omit<type, keys>
-  > 排除 keys 以外的值
+
+    > Omit<type, keys>
+    > 排除 keys 以外的值
+
     ```js
-    
     type NewUserProps = Omit<UserProps, 'name'> 
     // 等同于 
     { 
