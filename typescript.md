@@ -30,7 +30,7 @@ Readonly
 
 1. Pick
 
-    > Pick<type, keys> 
+    > Pick<type, keys>   
     > 取 keys 值
 
     ```js
