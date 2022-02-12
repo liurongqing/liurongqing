@@ -111,9 +111,9 @@ interface UserProps {
     > 变成可选
 
     ```typescript
-  const user: Partial<UserProps> = {
-    name: 'haha'
-  }
+    const user: Partial<UserProps> = {
+      name: 'haha'
+    }
     ```
 
 
@@ -127,9 +127,10 @@ interface UserProps {
 
 1. as const
 
-  > 不可修改  
-  ```typescript
-  const foo = { bar: 'baz' } as const
-  foo.bar = 123 // Error!
-  ```
+    > 不可修改  
+
+    ```typescript
+    const foo = { bar: 'baz' } as const
+    foo.bar = 123 // Error!
+    ```
 
