@@ -77,6 +77,7 @@ interface UserProps {
 
 1. Required
 
+    > Required<Type>
     > 将可选变成必选  
     ```typescript
     interface UserProps {
@@ -108,6 +109,7 @@ interface UserProps {
 
 1. Partial
 
+    > Partial<Type>
     > 变成可选
 
     ```typescript
@@ -117,13 +119,59 @@ interface UserProps {
     ```
 
 
-## 条件类型
+## 其他
 
 1. ReturnType
 
+    > ReturnType<Type>
+    > 取函数返回值类型
+    
+    ```typescript
+    function func() {
+      return {
+        a: 1,
+        b: 'haha'
+      }
+    }
+    type typeA = ReturnType<() => number> // number
+    type typeB = ReturnType<typeof func>
+    /* {
+      a: number
+      b: string
+    }*/
+    ```
+
+1. Parameters
+
+    > Parameters<Type>  
+    > 取函数的参数类型
+
+    ```typescript
+    type TypeA = Parameters<(options: { a: string }) => any>
+    // [options: { a: string }]
+    ```
+
 1. Extract
 
+    > Extract<Type, Union>  
+    > 取交集
+
+    ```typescript
+    type Width = string | number
+    type WidthType = Extract<Width, string>
+    // string
+    ```
+
 1. Exclude
+
+    > Exclude<Type, ExcludeUnion> 
+    > 取差集
+
+    ```typescript
+    type Width = string | number
+    type WidthType = Exclude<Width, string>
+    // number
+    ```
 
 1. as const
 
@@ -134,3 +182,44 @@ interface UserProps {
     foo.bar = 123 // Error!
     ```
 
+1. keyof
+
+    > 获取接口的 key 的联合类型
+
+    ```typescript
+    type keys = keyof UserProps
+    // 'name' | 'nickname' | 'age'
+    ```
+
+1. extends
+
+    > 类型约束
+
+    ```typescript
+    interface length {
+      length: number
+    }
+    function identity<T extends length>(arg: T): T {
+      console.log(arg.length)
+      return arg
+    }
+    ```
+
+1. U ? X : Y
+
+    > 条件类型
+
+    ```typescript
+    type Extract<T, U> = T extends U ? T : never;
+
+    ```
+
+1. in
+
+    > 类型映射
+
+    ```typescript
+    type Readonly<T> = {
+      readonly [P in keyof T]: T[p]
+    }
+    ```
