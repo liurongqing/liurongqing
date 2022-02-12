@@ -11,7 +11,8 @@
 
 ## 高级类型
 
-[Pick](#Pick)
+1. [Pick](#Pick)
+1. [Omit](#Omit)
 
 以下所有例子以这个源为例
 
