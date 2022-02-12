@@ -24,7 +24,7 @@ interface UserProps {
 
 1. Pick
 
-    > Pick<type, keys>  
+    > Pick<Type, Keys>  
     > 取 keys 值
 
     ```typescript
@@ -36,7 +36,7 @@ interface UserProps {
     ```
 1. Omit 
 
-    > Omit<type, keys>  
+    > Omit<Type, Keys>  
     > 排除 keys 以外的值
 
     ```typescript
@@ -49,7 +49,7 @@ interface UserProps {
     ```
 1. Readonly
 
-    > Readonly<type>
+    > Readonly<Type>
     > 只读
 
     ```typescript
@@ -63,7 +63,7 @@ interface UserProps {
     ```
 1. ReadonlyArray
 
-    > ReadonlyArray<type>
+    > ReadonlyArray<Type>
     > 只读
 
     ```typescript
@@ -76,16 +76,60 @@ interface UserProps {
     ```
 
 1. Required
+
+    > 将可选变成必选  
+    ```typescript
+    interface UserProps {
+      name: string
+      age?: number
+    }
+    const user: Required<UserProps> = {
+      name: 'haha',
+      age: 100
+    }
+    ```
+
 1. Record
+
+    > Record<Keys, Type>  
+    > 将一个类型属性映射到另一个类型时
+
+    ```typescript
+    interface User { name: string }
+    const users: Record<string, User> = {
+      info: {
+        name: 'haha'
+      },
+      info2: {
+        name: 'haha2'
+      }
+    }
+    ```
+
 1. Partial
+
+    > 变成可选
+
+    ```typescript
+  const user: Partial<UserProps> = {
+    name: 'haha'
+  }
+    ```
+
 
 ## 条件类型
 
 1. ReturnType
 
-
-
 1. Extract
 
 1. Exclude
+
+1. as const
+
+  > 不可修改  
+  ```typescript
+  const foo = { bar: 'baz' } as const
+  foo.bar = 123 // Error!
+  ```
 
