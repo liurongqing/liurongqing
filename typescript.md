@@ -22,10 +22,10 @@
 1. [Parameters](#Parameters)
 1. [Extract](#Extract)
 1. [Exclude](#Exclude)
-1. [as const](#as const)
+1. [as const](#as-const)
 1. [keyof](#keyof)
 1. [extends](#extends)
-1. [ReadonlyArray](#ReadonlyArray)
+1. [条件类型](#条件类型)
 1. [in](#in)
 
 以下所有例子以这个源为例
