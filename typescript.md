@@ -24,32 +24,32 @@ interface UserProps {
 }
 ```
 
-1. Pick
+## Pick
 
-   > Pick<Type, Keys>  
-   > 取 keys 值
+> Pick<Type, Keys>  
+> 取 keys 值
 
-   ```typescript
-   type NewUserProps = Pick<UserProps, 'name'>
-   // 等同于
-   {
-     name: string
-   }
-   ```
+```typescript
+type NewUserProps = Pick<UserProps, 'name'>
+// 等同于
+{
+  name: string
+}
+```
 
-1. Omit
+## Omit
 
-   > Omit<Type, Keys>  
-   > 排除 keys 以外的值
+> Omit<Type, Keys>  
+> 排除 keys 以外的值
 
-   ```typescript
-   type NewUserProps = Omit<UserProps, 'name'>
-   // 等同于
-   {
-     nickname: string
-     age: number
-   }
-   ```
+```typescript
+type NewUserProps = Omit<UserProps, 'name'>
+// 等同于
+{
+  nickname: string
+  age: number
+}
+```
 
 1. Readonly
 
