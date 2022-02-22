@@ -1,3 +1,6 @@
+
+1. [typescript](./typescript.md)
+
 ## Phaser 相关
 
 ### Phaser 游戏常用代码片段
