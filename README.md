@@ -5,7 +5,7 @@
 
 1. [TypeScript](./typescript.md)
 1. [Vim](./vim.md)
-1. [JavaScript 高级程序设计笔记](./professional-javascript.md)
+1. [JavaScript 高级程序设计笔记](./professional-javascript/index.md)
 
 
 ### 工具
