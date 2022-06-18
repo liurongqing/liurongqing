@@ -15,15 +15,10 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liurongqing&layout=compact)](https://github.com/liurongqing)
 
 
-<!-- ### About me
-
-[关于我](https://www.liurongqing.com/tabs/about/) -->
-
 ### Contact
 - :email: reach me at: <phpgege@gmail.com>
 - :house: reach me at: https://www.liurongqing.com
 - :phone: reach me at: 16620882081
-- 
 
 ---
 
