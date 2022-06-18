@@ -1,9 +1,3 @@
-
-### Contact
-- :email: reach me at: <phpgege@gmail.com>
-- :house: reach me at: https://www.liurongqing.com
-- :phone: reach me at: 16620882081
-
 ### On Github
 ![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=radical&count_private=true)
 
@@ -21,9 +15,15 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liurongqing&layout=compact)](https://github.com/liurongqing)
 
 
-### About me
+<!-- ### About me
 
-[关于我](https://www.liurongqing.com/tabs/about/)
+[关于我](https://www.liurongqing.com/tabs/about/) -->
+
+### Contact
+- :email: reach me at: <phpgege@gmail.com>
+- :house: reach me at: https://www.liurongqing.com
+- :phone: reach me at: 16620882081
+- 
 
 ---
 
