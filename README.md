@@ -5,7 +5,7 @@
 - :phone: reach me at: 16620882081
 
 ### On Github
-![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=tokyonight&count_private=true)
+![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=radical&count_private=true)
 
 ### Open source plugin
 [![seven-seconds](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=seven-seconds)](https://github.com/liurongqing/seven-seconds)
@@ -18,7 +18,7 @@
 [![phaser3-tutorial](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-tutorial)](https://github.com/liurongqing/phaser3-tutorial)
 
 ### Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liurongqing)](https://github.com/liurongqing)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liurongqing&layout=compact)](https://github.com/liurongqing)
 
 
 ### About me
