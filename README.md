@@ -4,7 +4,7 @@
 ### Open source plugin
 [![mao-cli](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=mao-cli)](https://github.com/liurongqing/mao-cli)
 [![lowcode](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=lowcode)](https://github.com/liurongqing/lowcode)
-[![seven-seconds](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=seven-seconds)](https://github.com/liurongqing/seven-seconds)
+[![nvim](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=nvim)](https://github.com/liurongqing/nvim)
 [![phaser3-align-plugin](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=phaser3-align-plugin)](https://github.com/liurongqing/phaser3-align-plugin)
 [![jekyll-theme-fast](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=jekyll-theme-fast)](https://github.com/liurongqing/jekyll-theme-fast)
 [![px2vw](https://github-readme-stats.vercel.app/api/pin/?username=liurongqing&repo=px2vw)](https://github.com/liurongqing/px2vw)
