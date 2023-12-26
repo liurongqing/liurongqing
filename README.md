@@ -6,6 +6,8 @@
 - [mongo 手册](https://www.liurongqing.com/mongo-book)
 - [docker 手册](https://www.liurongqing.com/docker-book)
 - [cocos 手册](https://www.liurongqing.com/cocos-book)
+- [typescript 手册](https://www.liurongqing.com/typescript-book)
+- [linux 手册](https://www.liurongqing.com/linux-book)
 
 ### Contact
 - :email: reach me at: <phpgege@gmail.com>
