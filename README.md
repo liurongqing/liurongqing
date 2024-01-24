@@ -9,6 +9,7 @@
 1. [Linux 手册](https://www.liurongqing.com/linux-book)
 1. [TypeScript 手册](https://www.liurongqing.com/typescript-book)
 1. [JavaScript 手册](https://www.liurongqing.com/javascript-book)
+1. [Asset 手册](https://www.liurongqing.com/asset-book/)
 
 ### Contact
 - :email: reach me at: <phpgege@gmail.com>
