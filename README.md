@@ -16,6 +16,9 @@
 - :house: reach me at: https://www.liurongqing.com
 - :phone: reach me at: 16620882081
 
+### 好用的仓库
+
+[react-slick](https://github.com/akiran/react-slick/) 轮播图
 ---
 
 <p align="center">
