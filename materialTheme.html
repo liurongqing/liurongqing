@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material</title>
+    <link rel="stylesheet" href="./material/light.css" />
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-size: 14px;
+      }
+      .main {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .grid {
+        display: grid;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+
+      .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+      .grid-cols-5 {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+      .gap-2\.5 {
+        gap: 10px;
+      }
+      .h-5 {
+        height: 20px;
+      }
+      .h-8 {
+        height: 32px;
+      }
+      .h-14 {
+        height: 56px;
+      }
+      .p-3 {
+        padding: 12px;
+      }
+
+      .ml-3 {
+        margin-left: 12px;
+      }
+      .mt-5 {
+        margin-top: 20px;
+      }
+      .col-span-3 {
+        grid-column: span 3 / span 3;
+      }
+      .gap-y-3 {
+        row-gap: 12px;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .flex-1 {
+        flex: 1;
+      }
+      .bg-white {
+        background-color: white;
+      }
+      /** primary */
+      .primary {
+        color: var(--md-sys-color-on-primary);
+        background-color: var(--md-sys-color-primary);
+      }
+      .on-primary {
+        background-color: var(--md-sys-color-on-primary);
+        color: var(--md-sys-color-primary);
+      }
+      .primary-container {
+        color: var(--md-sys-color-on-primary-container);
+        background-color: var(--md-sys-color-primary-container);
+      }
+      .on-primary-container {
+        background-color: var(--md-sys-color-on-primary-container);
+        color: var(--md-sys-color-primary-container);
+      }
+      .primary-fixed {
+        color: var(--md-sys-color-on-primary-fixed);
+        background-color: var(--md-sys-color-primary-fixed);
+      }
+      .primary-fixed-dim {
+        color: var(--md-sys-color-on-primary-fixed);
+        background-color: var(--md-sys-color-primary-fixed-dim);
+      }
+      .on-primary-fixed {
+        background-color: var(--md-sys-color-on-primary-fixed);
+        color: var(--md-sys-color-primary-fixed);
+      }
+      .on-primary-fixed-variant {
+        background-color: var(--md-sys-color-on-primary-fixed-variant);
+        color: var(--md-sys-color-primary-fixed);
+      }
+
+      /** secondary */
+      .secondary {
+        color: var(--md-sys-color-on-secondary);
+        background-color: var(--md-sys-color-secondary);
+      }
+      .on-secondary {
+        background-color: var(--md-sys-color-on-secondary);
+        color: var(--md-sys-color-secondary);
+      }
+      .secondary-container {
+        color: var(--md-sys-color-on-secondary-container);
+        background-color: var(--md-sys-color-secondary-container);
+      }
+      .on-secondary-container {
+        background-color: var(--md-sys-color-on-secondary-container);
+        color: var(--md-sys-color-secondary-container);
+      }
+      .secondary-fixed {
+        color: var(--md-sys-color-on-secondary-fixed);
+        background-color: var(--md-sys-color-secondary-fixed);
+      }
+      .secondary-fixed-dim {
+        color: var(--md-sys-color-on-secondary-fixed);
+        background-color: var(--md-sys-color-secondary-fixed-dim);
+      }
+      .on-secondary-fixed {
+        background-color: var(--md-sys-color-on-secondary-fixed);
+        color: var(--md-sys-color-secondary-fixed);
+      }
+      .on-secondary-fixed-variant {
+        background-color: var(--md-sys-color-on-secondary-fixed-variant);
+        color: var(--md-sys-color-secondary-fixed);
+      }
+
+      /** tertiary */
+      .tertiary {
+        color: var(--md-sys-color-on-tertiary);
+        background-color: var(--md-sys-color-tertiary);
+      }
+      .on-tertiary {
+        background-color: var(--md-sys-color-on-tertiary);
+        color: var(--md-sys-color-tertiary);
+      }
+      .tertiary-container {
+        color: var(--md-sys-color-on-tertiary-container);
+        background-color: var(--md-sys-color-tertiary-container);
+      }
+      .on-tertiary-container {
+        background-color: var(--md-sys-color-on-tertiary-container);
+        color: var(--md-sys-color-tertiary-container);
+      }
+      .tertiary-fixed {
+        color: var(--md-sys-color-on-tertiary-fixed);
+        background-color: var(--md-sys-color-tertiary-fixed);
+      }
+      .tertiary-fixed-dim {
+        color: var(--md-sys-color-on-tertiary-fixed);
+        background-color: var(--md-sys-color-tertiary-fixed-dim);
+      }
+      .on-tertiary-fixed {
+        background-color: var(--md-sys-color-on-tertiary-fixed);
+        color: var(--md-sys-color-tertiary-fixed);
+      }
+      .on-tertiary-fixed-variant {
+        background-color: var(--md-sys-color-on-tertiary-fixed-variant);
+        color: var(--md-sys-color-tertiary-fixed);
+      }
+
+      /** error */
+      .error {
+        color: var(--md-sys-color-on-error);
+        background-color: var(--md-sys-color-error);
+      }
+      .on-error {
+        background-color: var(--md-sys-color-on-error);
+        color: var(--md-sys-color-error);
+      }
+      .error-container {
+        color: var(--md-sys-color-on-error-container);
+        background-color: var(--md-sys-color-error-container);
+      }
+      .on-error-container {
+        background-color: var(--md-sys-color-on-error-container);
+        color: var(--md-sys-color-error-container);
+      }
+
+      /** surface */
+      .surface {
+        background-color: var(--md-sys-color-surface);
+        color: var(--md-sys-color-on-surface);
+      }
+      .on-surface {
+        background-color: var(--md-sys-color-on-surface);
+        color: var(--md-sys-color-surface);
+      }
+      .on-surface-variant {
+        background-color: var(--md-sys-color-on-surface-variant);
+        color: var(--md-sys-color-surface-variant);
+      }
+      .surface-outline {
+        background-color: var(--md-sys-color-outline);
+        color: var(--md-sys-color-surface);
+      }
+      .surface-outline-variant {
+        background-color: var(--md-sys-color-outline-variant);
+        color: var(--md-sys-color-on-surface);
+      }
+
+      .surface-scrim {
+        background-color: var(--md-sys-color-scrim);
+        color: var(--md-sys-color-surface);
+      }
+
+      .surface-shadow {
+        background-color: var(--md-sys-color-shadow);
+        color: var(--md-sys-color-surface);
+      }
+
+      .surface-dim {
+        background-color: var(--md-sys-color-surface-dim);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-bright {
+        background-color: var(--md-sys-color-surface-bright);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-container-lowest {
+        background-color: var(--md-sys-color-surface-container-lowest);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-container-low {
+        background-color: var(--md-sys-color-surface-container-low);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-container {
+        background-color: var(--md-sys-color-surface-container);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-container-high {
+        background-color: var(--md-sys-color-surface-container-high);
+        color: var(--md-sys-color-on-surface);
+      }
+      .surface-container-highest {
+        background-color: var(--md-sys-color-surface-container-highest);
+        color: var(--md-sys-color-on-surface);
+      }
+
+      .inverse-surface {
+        background-color: var(--md-sys-color-inverse-surface);
+        color: var(--md-sys-color-inverse-on-surface);
+      }
+      .inverse-primary {
+        background-color: var(--md-sys-color-inverse-primary);
+        color: var(--md-sys-color-on-surface);
+      }
+      .inverse-on-surface {
+        color: var(--md-sys-color-inverse-surface);
+        background-color: var(--md-sys-color-inverse-on-surface);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main light">
+      <!-- 主色、辅助色区域 -->
+      <div class="grid gap-2.5 grid-cols-4">
+        <div>
+          <div class="primary p-3 h-8">Primary</div>
+          <div class="on-primary p-3 h-5">On Primary</div>
+        </div>
+        <div>
+          <div class="secondary p-3 h-8">Secondary</div>
+          <div class="on-secondary p-3 h-5">On Secondary</div>
+        </div>
+        <div>
+          <div class="tertiary p-3 h-8">Tertiary</div>
+          <div class="on-tertiary p-3 h-5">On Tertiary</div>
+        </div>
+        <div class="ml-3">
+          <div class="error p-3 h-8">Error</div>
+          <div class="on-error p-3 h-5">On Error</div>
+        </div>
+        <div>
+          <div class="primary-container p-3 h-8">Primary Container</div>
+          <div class="on-primary-container p-3 h-5">On Primary Container</div>
+        </div>
+        <div>
+          <div class="secondary-container p-3 h-8">Secondary Container</div>
+          <div class="on-secondary-container p-3 h-5">
+            On Secondary Container
+          </div>
+        </div>
+        <div>
+          <div class="tertiary-container p-3 h-8">Tertiary Container</div>
+          <div class="on-tertiary-container p-3 h-5">On Tertiary Container</div>
+        </div>
+        <div class="ml-3">
+          <div class="error-container p-3 h-8">Error Container</div>
+          <div class="on-error-container p-3 h-5">On Error Container</div>
+        </div>
+      </div>
+
+      <!-- fixed 区域 -->
+      <div class="grid gap-2.5 grid-cols-4 mt-5">
+        <div>
+          <div class="flex">
+            <div class="primary-fixed p-3 h-8">Primary Fixed</div>
+            <div class="primary-fixed-dim p-3 h-8">Primary Fixed Dim</div>
+          </div>
+          <div class="on-primary-fixed p-3 h-5">On Primary Fixed</div>
+          <div class="on-primary-fixed-variant p-3 h-5">
+            On Primary Fixed Variant
+          </div>
+        </div>
+        <div>
+          <div class="flex">
+            <div class="secondary-fixed p-3 h-8">Secondary Fixed</div>
+            <div class="secondary-fixed-dim p-3 h-8">Secondary Fixed Dim</div>
+          </div>
+          <div class="on-secondary-fixed p-3 h-5">On Secondary Fixed</div>
+          <div class="on-secondary-fixed-variant p-3 h-5">
+            On Secondary Fixed Variant
+          </div>
+        </div>
+        <div>
+          <div class="flex">
+            <div class="tertiary-fixed p-3 h-8">Tertiary Fixed</div>
+            <div class="tertiary-fixed-dim p-3 h-8">Tertiary Fixed Dim</div>
+          </div>
+          <div class="on-tertiary-fixed p-3 h-5">On Tertiary Fixed</div>
+          <div class="on-tertiary-fixed-variant p-3 h-5">
+            On Tertiary Fixed Variant
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+
+      <!-- surface 区域 -->
+      <div class="grid gap-2.5 grid-cols-4 mt-5">
+        <div class="col-span-3 flex flex-col gap-y-3">
+          <div class="grid grid-cols-3">
+            <div class="surface-dim p-3 h-8">Surface Dim</div>
+            <div class="surface p-3 h-8">Surface</div>
+            <div class="surface-bright p-3 h-8">Surface Bright</div>
+          </div>
+          <div class="grid grid-cols-5">
+            <div class="surface-container-lowest p-3 h-14">
+              Surface Container Lowest
+            </div>
+            <div class="surface-container-low p-3 h-14">
+              Surface Container Low
+            </div>
+            <div class="surface-container p-3 h-14">Surface Container</div>
+            <div class="surface-container-high p-3 h-14">
+              Surface Container High
+            </div>
+            <div class="surface-container-highest p-3 h-14">
+              Surface Container Highest
+            </div>
+          </div>
+          <div class="grid grid-cols-4">
+            <div class="on-surface p-3 h-5">On Surface</div>
+            <div class="on-surface-variant p-3 h-5">On Surface Variant</div>
+            <div class="surface-outline p-3 h-5">Outline</div>
+            <div class="surface-outline-variant p-3 h-5">Outline Variant</div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between ml-3">
+          <div>
+            <div class="inverse-surface p-3 h-5">Inverse Surface</div>
+            <div class="inverse-on-surface p-3 h-5">Inverse On Surface</div>
+            <div class="inverse-primary p-3 h-5">Inverse Primary</div>
+          </div>
+          <div class="flex justify-between gap-2.5">
+            <div class="surface-scrim p-3 h-5 flex-1">Scrim</div>
+            <div class="surface-shadow p-3 h-5 flex-1">Shadow</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
