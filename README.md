@@ -1,5 +1,5 @@
 ### On Github
-![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=radical&count_private=true)
+![Dendoink's github stats](https://github-readme-stats.vercel.app/api?username=liurongqing&show_icons=true&theme=radical&count_private=true&time=20250107)
 
 ### 手册列表
 
